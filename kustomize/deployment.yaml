@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: web-store-app
-        image: fakhriyfasya/my-web-store:33
+        image: fakhriyfasya/my-web-store:latest
         resources:
           requests:
             memory: "128Mi"
