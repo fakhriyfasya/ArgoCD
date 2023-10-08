@@ -1,8 +1,8 @@
-namespace: dev
+namespace: prod
 
 resources:
   - deployment.yaml
   - service.yaml
 
 namePrefix: kustomize-
-nameSuffix: -development
+nameSuffix: -production
