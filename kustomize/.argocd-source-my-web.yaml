@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - fakhriyfasya/my-web-store:34
