@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-web
+  name: web-store-app
 spec:
   selector:
     matchLabels:
-      app: my-web
+      app: web-store-app
   template:
     metadata:
       labels:
-        app: my-web
+        app: web-store-app
     spec:
       containers:
-      - name: my-web
+      - name: web-store-app
         image: fakhriyfasya/my-web-store:latest
         resources:
           requests:

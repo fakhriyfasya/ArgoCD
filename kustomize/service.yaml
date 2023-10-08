@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-web
+  name: web-store-app
 spec:
   type: LoadBalancer
   selector:
-    app: my-web
+    app: web-store-app
   ports:
   - port: 8082
     targetPort: 80
