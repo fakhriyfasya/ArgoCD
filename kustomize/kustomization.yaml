@@ -5,4 +5,4 @@ resources:
   - service.yaml
 
 namePrefix: kustomize-
-nameSuffix: -staging
+nameSuffix: -development
