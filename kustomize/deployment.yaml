@@ -23,4 +23,4 @@ spec:
             cpu: "200m"
         ports:
         - containerPort: 80
-  revisionHistoryLimit: 5
+  revisionHistoryLimit: 3
